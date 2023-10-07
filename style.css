@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-color: #EAC7C7;
+}
+
+.container{
+    padding-top: 0px;
+}
+h1{
+    color: #4682A9;
+    font-family: 'Satisfy', cursive;
+    font-size: 100px;
+
+}
+
+.heading{
+    color: #4682A9;
+    font-family: 'Satisfy', cursive;
+    font-size: 70px;
+}
+
+.players{
+    color: #749BC2;
+    padding-top: 10px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+}
+
+footer{
+    color: darkred;
+    font-size: 20px;
+}
+
+.dice-content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+
+
