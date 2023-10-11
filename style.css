@@ -37,8 +37,31 @@ footer{
     display: flex;
     justify-content: center;
     gap: 50px;
-
 }
+@media (max-width: 680px){
+    h1{
+        font-size: 2rem;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .players{
+        font-size: 15px;
+    }
+    .dice-content{
+        display: flex;
+        justify-content: center;
+        gap: 110px;
+    }
+    .player-dice, .player2-dice{
+        width: 50px;
+        height: 50px; 
+    }
+    footer > p {
+        font-size: 15px;
+    }
+}
+
 
 
 
